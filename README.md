@@ -14,3 +14,25 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📚 Web Kitaplığı
+
+Bu proje, React kullanılarak oluşturulmuş küçük bir web kitaplığı uygulamasıdır.  
+Kullanıcılar kitaplar arasında **arama** yapabilir, **kategoriye göre filtreleyebilir**  
+ve kitapları **favorilere ekleyip çıkarabilir**.  
+Favoriler ve arama geçmişi **localStorage** ile kalıcıdır.
+
+## 🚀 Özellikler
+- 🔍 Arama kutusu ile filtreleme  
+- 🏷️ Kategori seçimi  
+- ⭐ Favoriye ekleme / çıkarma  
+- 💾 localStorage ile veri kalıcılığı  
+
+## 🧱 Kullanılan Teknolojiler
+- React (Vite)
+- JavaScript (ES6)
+- HTML / CSS
+
+## 📦 Kurulum
+```bash
+npm install
+npm run dev
